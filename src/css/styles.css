@@ -1,2 +1,24 @@
 @import url('./reset.css');
+.js-form {
+    text-align: center;
+}
 
+.js-input {
+    margin-right: 8px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.js-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.gallery-item {
+    flex-basis: calc(100% / 4);
+    width: 240px;
+    height: auto;
+}
