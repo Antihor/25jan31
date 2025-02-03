@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>25jan31</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-BWwOYRbT.css">
+    <script type="module" crossorigin src="/25jan31/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/25jan31/assets/vendor-FQTYvDtO.js">
+    <link rel="stylesheet" crossorigin href="/25jan31/assets/vendor-D_nxXpU-.css">
+    <link rel="stylesheet" crossorigin href="/25jan31/assets/index-BSXyKzeW.css">
   </head>
   <body>
+    <form action="submit" class="js-form">
+      <input
+        type="text"
+        name="query"
+        placeholder="Search images..."
+        class="js-input"
+      /><button type="submit" class="search js-btn">Search</button>
+
+      <ul class="js-gallery"></ul>
+    </form>
+    <button type="button" class="more js-more hidden">Load more</button>
   </body>
 </html>
