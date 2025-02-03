@@ -1,4 +1,3 @@
-import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import { getImage } from './js/api';
@@ -66,5 +65,3 @@ async function onMore() {
     console.log(err);
   }
 }
-
-
