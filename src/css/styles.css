@@ -18,7 +18,28 @@
 }
 
 .gallery-item {
-    flex-basis: calc(100% / 4);
-    width: 240px;
-    height: auto;
+    flex-basis: calc((100% -72px) / 4);
+}
+.img{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.more, 
+.search {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: darkgreen;
+    color: antiquewhite;
+
+}
+.more{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+}
+.more.hidden {
+    display: none;
 }
